@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Move the vechile forward
+        transform.Translate(0, 0, 1);
     }
 }
